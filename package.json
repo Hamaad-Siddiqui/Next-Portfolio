@@ -1,0 +1,48 @@
+{
+  "name": "next-portfolio",
+  "description": "My personal website.",
+  "version": "0.0.0",
+  "author": {
+    "name": "Hamaad Siddiqui",
+    "email": "hamaad_siddiqui@hotmail.com",
+    "url": "https://hamaad.vercel.app"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamaad-Siddiqui/Next-Portfolio"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+  },
+  "dependencies": {
+    "@mdx-js/react": "1.6.22",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.0.4",
+    "comma-number": "2.0.1",
+    "firebase-admin": "^9.4.2",
+    "mdx-prism": "0.3.1",
+    "next": "10.0.3",
+    "next-seo": "4.17.0",
+    "next-themes": "^0.0.10",
+    "postcss": "^8.1.14",
+    "preact": "^10.5.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "0.3.9",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  }
+}
