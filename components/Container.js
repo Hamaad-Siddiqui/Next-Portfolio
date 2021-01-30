@@ -48,20 +48,24 @@ export default function Container({ children }) {
         </button>
         <div>
           <NextLink href="/">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
+            <a className="p-1.5 sm:p-4 text-gray-900 dark:text-gray-100">
+              Home
+            </a>
           </NextLink>
           <NextLink href="/projects">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
+            <a className="p-1.5 sm:p-4 text-gray-900 dark:text-gray-100">
               Projects
             </a>
           </NextLink>
           <NextLink href="/skills">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
+            <a className="p-1.5 sm:p-4 text-gray-900 dark:text-gray-100">
               Skills
             </a>
           </NextLink>
           <NextLink href="/about">
-            <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
+            <a className="p-1.5 sm:p-4 text-gray-900 dark:text-gray-100">
+              About
+            </a>
           </NextLink>
         </div>
       </nav>

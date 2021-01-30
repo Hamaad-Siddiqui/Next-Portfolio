@@ -24,8 +24,7 @@ export default function Home() {
           computer science degree. You’ve found my personal slice of the
           internet – everything you want to know and more is here.
         </h2>
-
-        <h3 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 mt-6 text-black dark:text-white">
+        <h3 className="font-bold text-2xl md:text-3xl tracking-tight mb-6 text-black dark:text-white">
           Dashboard
         </h3>
         <div className="mb-8">

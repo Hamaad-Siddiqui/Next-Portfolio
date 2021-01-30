@@ -37,6 +37,7 @@
     "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
+    "globby": "^11.0.2",
     "prettier": "2.2.1"
   },
   "prettier": {
