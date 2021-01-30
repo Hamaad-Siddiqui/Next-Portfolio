@@ -3,10 +3,10 @@ import { NextSeo } from 'next-seo';
 import Container from '@/components/Container';
 import ProjectCard from '@/components/ProjectCard';
 
-const url = 'https://hamaad.vercel.app/dashboard';
+const url = 'https://hamaad.vercel.app/projects';
 const title = 'Projects – Hamaad Siddiqui';
 
-export default function Dashboard() {
+export default function Projects() {
   return (
     <Container>
       <NextSeo
@@ -23,10 +23,8 @@ export default function Dashboard() {
         </h1>
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            This is my personal dashboard, built with Next.js API routes
-            deployed as serverless functions. I use this dashboard to track
-            various metrics across platforms like Spotify, GitHub, and more.
-            Feel free to have a look.
+            Here are a few projects that I've worked on recently in my free
+            time. You can click on them to get more details about them.
           </p>
         </div>
         <ProjectCard
