@@ -50,9 +50,9 @@ export default function Container({ children }) {
           <NextLink href="/">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Home</a>
           </NextLink>
-          <NextLink href="/dashboard">
+          <NextLink href="/projects">
             <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">
-              Dashboard
+              Projects
             </a>
           </NextLink>
           <NextLink href="/skills">

@@ -1,8 +1,10 @@
 import { useEffect } from 'react';
 import Fetcher from '@/lib/fetcher';
 
-import Container from '../components/Container';
-import ProjectCard from '../components/ProjectCard';
+import Analytics from '@/components/metrics/Analytics';
+import GitHub from '@/components/metrics/Github';
+import Container from '@/components/Container';
+import TopTracks from '@/components/TopTracks';
 
 export default function Home() {
   useEffect(() => {
@@ -23,27 +25,32 @@ export default function Home() {
           internet – everything you want to know and more is here.
         </h2>
 
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-6 text-black dark:text-white">
-          Projects
+        <h3 className="font-bold text-2xl md:text-3xl tracking-tight mb-4 mt-6 text-black dark:text-white">
+          Dashboard
         </h3>
-        <ProjectCard
-          title="Buy & Sell"
-          description="Sell your used furniture and appliances and Buy new one's - Beta."
-          href="https://buy-and-sell.netlify.app/"
-          icon="buy&sell"
-        />
-        <ProjectCard
-          title="Pakistan TV"
-          description="A free video course for building static and server-side rendered applications with Next.js and React."
-          href="https://pakistan-tv.vercel.app/"
-          icon="pakistantv"
-        />
-        <ProjectCard
-          title="Fast Feedback"
-          description="The easiest way to add comments or reviews to your static site. Built as part of React 2025."
-          href="https://fast-feedback-dev.vercel.app/"
-          icon="fastfeedback"
-        />
+        <div className="mb-8">
+          <p className="text-gray-600 dark:text-gray-400 mb-4">
+            This is my personal dashboard, built with Next.js API routes
+            deployed as serverless functions. I use this dashboard to track
+            various metrics across platforms like Spotify, GitHub, and more.
+            Feel free to have a look.
+          </p>
+        </div>
+
+        <div className="flex flex-col w-full"></div>
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">
+          <Analytics />
+          <GitHub />
+        </div>
+        <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full"></div>
+        <h2 className="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white">
+          Top Tracks
+        </h2>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">
+          Curious what I'm currently jamming to? Here's my top tracks on Spotify
+          updated daily.
+        </p>
+        <TopTracks />
       </div>
     </Container>
   );
