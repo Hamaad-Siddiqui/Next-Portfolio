@@ -22,7 +22,7 @@ export default function Snippets({ skills }) {
           My Skills
         </h1>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          These are a collection of some my skills I've gathered in the past.
+          These are a collection of some of my skills I've gathered in the past.
           They include a summary of the tools and frameworks that I love to use,
           It is my current Tech Stack & it may change over time.
         </p>
