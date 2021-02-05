@@ -20,7 +20,7 @@ export default function Home() {
           Hey, I’m Hamaad Siddiqui
         </h1>
         <h2 className="text-gray-600 dark:text-gray-400 mb-12">
-          I’m a Full Stack Developer. I am currently in collage getting my
+          I’m a Full Stack Developer. I am currently in college getting my
           computer science degree. You’ve found my personal slice of the
           internet – everything you want to know and more is here.
         </h2>
@@ -46,8 +46,8 @@ export default function Home() {
           Top Tracks
         </h2>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          Curious what I'm currently jamming to? Here's my top tracks on Spotify
-          updated daily.
+          Curious what I'm currently jamming to? Here are my top tracks on
+          Spotify updated daily.
         </p>
         <TopTracks />
       </div>

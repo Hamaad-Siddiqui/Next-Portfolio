@@ -79,8 +79,8 @@ export default function About() {
         <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
           <p>
             Hey, I’m Hamaad I'm {getAge(`2003-08-27`)}. I started coding back in
-            2019 for fun and now its been {getAge(`2019-01-01`)} years and I
-            have learned alot and still am learning on the way.
+            2019 for fun and now it's been {getAge(`2019-01-01`)} years and I
+            have learned a lot and still am learning on the way.
           </p>
 
           <p>
@@ -97,7 +97,7 @@ export default function About() {
             all.
           </p>
           <p>
-            I am an introvert, an tech enthusiast and a coffee lover. On the
+            I am an introvert, a tech enthusiast, and a coffee lover. On the
             side, I love to play chess and I'm a wanna-be musician. I'm
             passionate about technology and enjoy staying up to date on all
             things tech, engineering, and business.
@@ -107,13 +107,13 @@ export default function About() {
           Experience
         </h2>
         <p className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
-          I learned to code on my on. This helped me learn how to adapt to new
-          changes and to work on my on. It also meant that unlike a normal
-          bootcamp I had more than one teacher, so I wanted them to be on my
-          portfolio as they have helped me learn alot on the way.
+          I learned to code on my own. This gave me an opportunity to learn a
+          lot. It also meant that unlike a normal Bootcamp I had more than one
+          teacher, so I wanted to attribute them as they have helped me learn a
+          lot on the way.
         </p>
         <h4 className="font-medium text-xl tracking-tight mb-4 text-black dark:text-white">
-          Taught By
+          My Teachers
         </h4>
         <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 w-full mb-16">
           <Teacher
@@ -130,11 +130,6 @@ export default function About() {
             name="Dev Ed"
             youtube="https://www.youtube.com/c/DevEd"
             twitter="https://twitter.com/developedbyed"
-          />
-          <Teacher
-            name="TechLead"
-            youtube="https://www.youtube.com/c/JoshuaFluke1/"
-            twitter="https://twitter.com/techleadhd"
           />
           <Teacher
             name="Kalle Hallden"
@@ -156,11 +151,6 @@ export default function About() {
             name="Thenewboston"
             youtube="https://www.youtube.com/channel/UCJbPGzawDH1njbqV-D5HqKw"
             twitter="https://twitter.com/bucky_roberts"
-          />
-          <Teacher
-            name="Joma Tech"
-            youtube="https://www.youtube.com/c/jomaoppa"
-            twitter="https://twitter.com/jomaoppa"
           />
           <Teacher
             name="Joshua Fluke"
