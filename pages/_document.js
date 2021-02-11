@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href="/static/favicons/apple-touch-icon.png"
           />
           <link
             rel="icon"
@@ -39,11 +39,15 @@ class MyDocument extends Document {
             content="/static/static/favicons/favicons/browserconfig.xml"
             name="msapplication-config"
           />
-          <meta content="14d2e73487fa6c71" name="yandex-verification" />
-          <meta
-            content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw"
-            name="google-site-verification"
-          />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-S4L0FPC1S9"
+          ></script>
+          <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-S4L0FPC1S9');
+          </script>
         </Head>
         <body className="bg-white dark:bg-black text-white dark:text-black">
           <Main />
