@@ -39,15 +39,10 @@ class MyDocument extends Document {
             content="/static/static/favicons/favicons/browserconfig.xml"
             name="msapplication-config"
           />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-S4L0FPC1S9"
-          ></script>
-          <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-S4L0FPC1S9');
-          </script>
+          <meta
+            name="google-site-verification"
+            content="GsScwj6oXg1W0jAK1DevFa4p9a5Hows_gxGBqsPS6Pw"
+          />
         </Head>
         <body className="bg-white dark:bg-black text-white dark:text-black">
           <Main />
