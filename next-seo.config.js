@@ -1,5 +1,6 @@
 const title = 'Hamaad Siddiqui – Developer';
-const description = 'Full-Stack developer & JavaScript enthusiast.';
+const description =
+  'Full-Stack Developer | Coffee Lover ☕ | JavaScript enthusiast.';
 
 const SEO = {
   title,
