@@ -1,9 +1,16 @@
+# Development Stuff
 *.log
 .DS_Store
 .next
 node_modules
+.vercel
+
+# Private Stuff
 .env.local
 public/sitemap.xml
-.vercel
+
+# Service Worker Stuff
 **/public/workbox-*.js
+**/public/workbox-*.js.map
 **/public/sw.js
+**/public/sw.js.map
