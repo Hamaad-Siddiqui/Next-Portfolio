@@ -41,7 +41,7 @@ class MyDocument extends Document {
             content="Hamaad Siddiqui Developer Javascript React"
           />
           <meta
-            content="/static/static/favicons/favicons/browserconfig.xml"
+            content="/static/favicons/favicons/browserconfig.xml"
             name="msapplication-config"
           />
           <meta
