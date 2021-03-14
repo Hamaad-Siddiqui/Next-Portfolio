@@ -1,4 +1,10 @@
-module.exports = {
+const withPWA = require('next-pwa');
+
+module.exports = withPWA({
+  pwa: {
+    disable: process.env.NODE_ENV === 'development',
+    dest: 'public'
+  },
   images: {
     domains: [
       'i.scdn.co', // Spotify Album Art
@@ -20,13 +26,5 @@ module.exports = {
     }
 
     return config;
-  }
-};
-const withPWA = require('next-pwa');
-
-module.exports = withPWA({
-  pwa: {
-    disable: process.env.NODE_ENV === 'development',
-    dest: 'public'
   }
 });

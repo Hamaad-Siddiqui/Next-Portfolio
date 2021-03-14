@@ -32,7 +32,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="msapplication-TileColor" content="#3d3d3d" />
           <meta name="theme-color" content="#ffffff" />
