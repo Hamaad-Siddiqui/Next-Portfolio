@@ -14,11 +14,8 @@ $ yarn
 $ yarn dev
 ```
 
-Create a `.env.local` file similar to [`.env.example`](https://github.com/Hamaad-Siddiqui/Next-Portfolio/blob/master/.env.example).
-
 ## Built Using
 
 - [Next.js](https://nextjs.org/)
 - [Vercel](https://vercel.com)
-- [MDX](https://github.com/mdx-js/mdx)
 - [Tailwind CSS](https://tailwindcss.com/)

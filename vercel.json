@@ -14,8 +14,16 @@
   ],
   "redirects": [
     {
-      "source": "/experience",
-      "destination": "/about"
+      "source": "/about",
+      "destination": "/#About"
+    },
+    {
+      "source": "/projects",
+      "destination": "/#Projects"
+    },
+    {
+      "source": "/contact",
+      "destination": "/#Contact"
     }
   ]
 }
