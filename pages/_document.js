@@ -33,12 +33,12 @@ class MyDocument extends Document {
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
           <meta charSet="utf-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="msapplication-TileColor" content="#3d3d3d" />
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="keywords"
-            content="Hamaad Siddiqui Developer Javascript React"
+            content="Hamaad Siddiqui, developer, javascript, react, software engineer, hammad, siddiqui, hamaad, full stack"
           />
           <meta
             content="/static/favicons/favicons/browserconfig.xml"
@@ -49,7 +49,7 @@ class MyDocument extends Document {
             content="GsScwj6oXg1W0jAK1DevFa4p9a5Hows_gxGBqsPS6Pw"
           />
         </Head>
-        <body className="bg-white dark:bg-black text-white dark:text-black">
+        <body className="bg-light dark:bg-dark text-white dark:text-black">
           <Main />
           <NextScript />
         </body>

@@ -7,7 +7,7 @@ export default function ProjectCard({ title, description, href, icon }) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
+      <div className="flex items-center border  border-gray-200 dark:border-gray-800  hover:border-navy rounded p-4 transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0 shadow-sm">
         {icon == 'buy&sell' && (
           <div className="h-8 w-8 ml-2 mr-4">
             <span className="sr-only">Buy And Sell</span>
@@ -44,7 +44,7 @@ export default function ProjectCard({ title, description, href, icon }) {
           </div>
         )}
         {icon == 'fastfeedback' && (
-          <div className="h-8 w-8 ml-2 mr-4">
+          <div className="h-8 w-8 ml-2 mr-4 ">
             <span className="sr-only">Fast Feedback</span>
             <svg
               className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"

@@ -5,6 +5,13 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        dblue: '#080e2b',
+        light: '#fdfffc',
+        dark: '#02040f',
+        neon: '#48CAE4',
+        navy: '#023E8A'
+      },
       fontFamily: {
         sans: ['Inter', ...fontFamily.sans]
       },
