@@ -73,9 +73,21 @@ export default function Container({ children }) {
       </nav>
       <main className="flex flex-col justify-center bg-light dark:bg-dark px-8 ">
         {children}
-        <footer className="flex flex-col items-center mb-8 md:hidden">
+        <footer className="flex flex-col items-center mb-4 md:hidden">
           <Contact />
         </footer>
+        <div className="flex items-center justify-center mt-2 mb-4">
+          <a
+            href="https://github.com/Hamaad-Siddiqui/Next-Portfolio"
+            aria-label="Portfolio Github"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+          text-xs text-gray-900 dark:text-gray-100 hover:text-green-500 dark:hover:text-green-300"
+          >
+            Made with ❤️ using Next.JS & TailwindCSS
+          </a>
+        </div>
       </main>
     </div>
   );
