@@ -81,18 +81,32 @@ export default function Home() {
             description="Buy & sell electronics, cars, clothes, collectibles & more, the world's online marketplace. Top brands, low prices & free shipping on many items."
             href="https://buy-and-sell.netlify.app/"
             icon="buy&sell"
+            made={['React.js', 'MongoDB', 'Node', 'SCSS']}
+            git="https://github.com/Hamaad-Siddiqui/MERN-Shopping-App"
           />
           <ProjectCard
             title="Pakistan TV"
             description="Watch your favourite Pakistani TV shows & channels live, Ad free without any disturbance only on Pakistan TV."
             href="https://pakistan-tv.vercel.app/"
             icon="pakistantv"
+            made={['Next.js', 'TailwindCSS', 'FaunaDB']}
+            git="https://github.com/Hamaad-Siddiqui/Pakistan-TV"
           />
           <ProjectCard
             title="Fast Feedback"
             description="The easiest way to add comments or reviews to your static site. Built as part of React 2025."
             href="https://fast-feedback-dev.vercel.app/"
             icon="fastfeedback"
+            made={['Next.js', 'ChakraUI', 'MDX', 'Firebase', 'Stripe']}
+            git="https://github.com/Hamaad-Siddiqui/Fast-Feedback-2.0"
+          />
+          <ProjectCard
+            title="Chat App"
+            description="Hang out anytime, anywhere — Chat App makes it easy and fun to stay close to your favorite people."
+            href="https://chat-app-7e498.web.app/"
+            icon="chatapp"
+            made={['React', 'Firebase', 'CSS3']}
+            git="https://github.com/Hamaad-Siddiqui/Firebase-Chat-App"
           />
         </div>
         <div
@@ -107,7 +121,7 @@ export default function Home() {
             Feel free to reach out to me any time, whether you have a question
             or just want to say hi, I'll try my best to get back to you!
           </h2>
-          <button className="mb-10 py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
+          <button className="mb-6 py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
             Say Hello
           </button>
         </div>

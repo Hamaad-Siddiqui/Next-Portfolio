@@ -1,4 +1,11 @@
-export default function ProjectCard({ title, description, href, icon }) {
+export default function ProjectCard({
+  title,
+  description,
+  href,
+  icon,
+  made,
+  git
+}) {
   return (
     <a
       className="mb-4 hover:shadow"
@@ -43,6 +50,34 @@ export default function ProjectCard({ title, description, href, icon }) {
             </svg>
           </div>
         )}
+        {icon == 'chatapp' && (
+          <div className="h-8 w-8 ml-2 mr-4 mb-8">
+            <span className="sr-only">Chat App</span>
+            <svg
+              className="h-16 w-8 min-w-lg text-gray-900 dark:text-gray-100"
+              viewBox=".5 -.2 1023 1024.1"
+            >
+              <g>
+                <path
+                  d="M990,460.5c0,228.2-219.5,413.8-490.4,413.8c-75,0-145.3-14.2-209.3-39.5L104.8,953.3L134,736.9C57.4,663.5,10,566.3,10,460.5C10,232.3,229.5,46.7,500.4,46.7C770.5,46.7,990,232.3,990,460.5z M162.4,863.3l105-66.3l40.3-3.9c60,23.7,124.8,36.3,192.7,36.3c245.6,0,445.4-165.8,445.4-368.8S746,91.7,500.4,91.7C254.8,91.7,55,256.8,55,460.5c0,89.2,39.5,176.1,110.6,243.2l13.4,38.7L162.4,863.3z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M228,441.6c0,31.8,25.8,57.6,57.6,57.6c31.8,0,57.6-25.8,57.6-57.6s-25.8-57.6-57.6-57.6C253.8,383.9,228,409.7,228,441.6L228,441.6z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M456.2,441.6c0,31.8,25.8,57.6,57.6,57.6c31.8,0,57.6-25.8,57.6-57.6s-25.8-57.6-57.6-57.6C482,383.9,456.2,409.7,456.2,441.6L456.2,441.6z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M684.4,441.6c0,31.8,25.8,57.6,57.6,57.6c31.8,0,57.6-25.8,57.6-57.6s-25.8-57.6-57.6-57.6C710.2,383.9,684.4,409.7,684.4,441.6L684.4,441.6z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </div>
+        )}
         {icon == 'fastfeedback' && (
           <div className="h-8 w-8 ml-2 mr-4 ">
             <span className="sr-only">Fast Feedback</span>
@@ -58,12 +93,42 @@ export default function ProjectCard({ title, description, href, icon }) {
           </div>
         )}
         <div>
-          <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-            {title}
-          </h4>
+          <div className="flex justify-between">
+            <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
+              {title}
+            </h4>
+            <a
+              href={git}
+              aria-label={title}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg className="h-16 w-8 -mb-8 text-gray-900 dark:text-gray-100">
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </g>
+              </svg>
+            </a>
+          </div>
           <p className="leading-5 text-gray-700 dark:text-gray-300">
             {description}
           </p>
+          <div className="flex-row-reverse mt-1.5 -mb-1 hidden sm:flex ">
+            {made.reverse().map((made) => (
+              <p
+                className="ml-3 leading-5 text-sm text-gray-800 dark:text-gray-200"
+                key={made}
+              >
+                {made}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </a>
