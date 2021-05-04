@@ -114,9 +114,15 @@ export default function Home() {
           className="flex flex-col justify-center items-center max-w-2xl mx-auto mb-10 mt-4"
         >
           <h2 className="text-navy dark:text-neon mb-4">What’s Next?</h2>
-          <h1 className="font-bold text-3xl md:text-5xl  mb-4 text-black dark:text-light">
-            Get In Touch
-          </h1>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:hamaad_siddiqui@hotmail.com"
+          >
+            <h1 className="font-bold text-3xl md:text-5xl  mb-4 text-black dark:text-light">
+              Get In Touch
+            </h1>
+          </a>
           <h2 className="text-gray-600 dark:text-gray-400 mb-9  max-w-sm md:max-w-xl  text-center">
             Feel free to reach out to me any time, whether you have a question
             or just want to say hi, I'll try my best to get back to you!
