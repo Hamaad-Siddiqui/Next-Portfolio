@@ -114,22 +114,22 @@ export default function Home() {
           className="flex flex-col justify-center items-center max-w-2xl mx-auto mb-10 mt-4"
         >
           <h2 className="text-navy dark:text-neon mb-4">What’s Next?</h2>
+          <h1 className="font-bold text-3xl md:text-5xl  mb-4 text-black dark:text-light">
+            Get In Touch
+          </h1>
+          <h2 className="text-gray-600 dark:text-gray-400 mb-9  max-w-sm md:max-w-xl  text-center">
+            Feel free to reach out to me any time, whether you have a question
+            or just want to say hi, I'll try my best to get back to you!
+          </h2>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:hamaad_siddiqui@hotmail.com"
           >
-            <h1 className="font-bold text-3xl md:text-5xl  mb-4 text-black dark:text-light">
-              Get In Touch
-            </h1>
+            <button className="mb-6 py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
+              Say Hello
+            </button>
           </a>
-          <h2 className="text-gray-600 dark:text-gray-400 mb-9  max-w-sm md:max-w-xl  text-center">
-            Feel free to reach out to me any time, whether you have a question
-            or just want to say hi, I'll try my best to get back to you!
-          </h2>
-          <button className="mb-6 py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
-            Say Hello
-          </button>
         </div>
       </div>
     </Container>
