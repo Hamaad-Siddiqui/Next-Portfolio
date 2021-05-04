@@ -126,7 +126,7 @@ export default function Home() {
             rel="noopener noreferrer"
             href="mailto:hamaad_siddiqui@hotmail.com"
           >
-            <button className="mb-6 py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
+            <button className="py-3 px-5 bg-transparent text-neon font-mono font-thin border border-dblue dark:border-navy rounded hover:bg-gray-100 dark:hover:bg-dblue hover:text-dblue dark:hover:text-white transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">
               Say Hello
             </button>
           </a>
